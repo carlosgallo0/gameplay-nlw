@@ -13,6 +13,7 @@ import { Routes } from './src/routes';
 import { Background } from './src/components/Background';
 
 export default function App(){
+  //require('dotenv').config()
   const [fontsLoaded] = useFonts({
     Inter_400Regular,
     Inter_500Medium,

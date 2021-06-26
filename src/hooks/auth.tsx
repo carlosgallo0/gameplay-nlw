@@ -10,6 +10,8 @@ import React,
 import * as AuthSession from 'expo-auth-session';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
+//const dotenv = require('dotenv')
+
 const { SCOPE } = process.env;
 const { CLIENT_ID } = process.env;
 const { CDN_IMAGE } = process.env;
